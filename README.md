@@ -1,13 +1,17 @@
+
 <h1 align="center">Hi 👋, I'm Akilesh</h1>
 <h3 align="center">A passionate frontend developer from salem</h3>
+<img align="right"alt="coding"width="400" src="https://outlane.co/now/new-shot-programmer-animation/">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abiakilesh&label=Profile%20views&color=0e75b6&style=flat" alt="abiakilesh" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abiakilesh" alt="abiakilesh" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
+- 🌱 I’m currently learning **java,javascript**
+
 - 📫 How to reach me **abimathu0809@gmail.com**
+
+- ⚡ Fun fact **life is fun**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
