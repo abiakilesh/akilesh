@@ -1,100 +1,80 @@
-.body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+body{
+    background-color: #cde7f6;
+    font-family:roboto,sans-serif;
 }
-.banner{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(bull.jpg);
-    background-size: cover;
-    background-position: center;
-
+.form{
+    height: 1100px;
+    width: 600px;
+    margin:auto
 }
-.navbar{
-    width: 20px;
-    margin: auto;
-    padding: 35px ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.required{
+    font-size: 13px;
+    color: red;
 }
-.navbar  li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+.title-div{
+    height: 150px;
+    width: 600px;
+    background-color: #fdfefe;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #6703c4;
+    padding: 25px;
 }
-.navbar ul{
-    display: flex;
-}
-.navbar ul li a{
-    display: flex;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-}
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #009688;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-.navbar ul li:hover::after{
-    width: 100%;
-}
-.content{
-    width: 100%;
-    position: absolute; 
-    top: 50%;
-    transform: translateY(-50%);
-    color: #fff;
-    text-align: center;
-}
-.content h1{
-    font-size: 50px;
-    margin-top: 80px;
-}
-.content p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
-}
-.button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #009688;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    box-sizing: 20px;
+.name-div,.college-div,.gmail-div,.mobile-div,.reg-div,.roll-div,.feed-div{
+    height: 150px;
+    width: 600px;
+    background-color: #fdfefe;
+    margin: 0px;
+    border-radius: 8px;
+    
     
 }
-span{
-    background: #009688;
-    height: 100%;
-    width: 100%;
-    border-radius: 25px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-}
-button:hover span{
-    width: 100%;
-    
 
+
+.name{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
 }
-button:hover{
+.input-div{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.input-div input{
+    width: 300px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #dcd707;
+    font-size: 15px;
+}
+.btn{
+    height: 36px;
+    width: 100px;
+    background-color: #6703c4;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 540;
     border: none;
+    padding: 10px;
+    position: absolute;
+    margin: 15px;
+    color: white;
+}
+.last-div h2{
+    text-align: center;
+    padding-top: 10px;
+    color: #a2a4a6;
+    position: absolute;
+}
+.never{
+    padding-left: 15px;
+    font-size: 12px;
+    padding: 70px;
+    font-weight: 400;
+}
+.submit{
+    text-align: center;
+    padding-top: 20px;
 }
